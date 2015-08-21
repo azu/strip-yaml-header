@@ -16,7 +16,7 @@ var markdown = "---\n" +
                "title: title\n" +
                "---\n" +
                "test";
-var result = normalize(markdown);
+var result = strip(markdown);
 assert.equal(result, "\n" +
                     "\n" +
                     "\n" +
